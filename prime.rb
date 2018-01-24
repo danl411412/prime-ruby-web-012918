@@ -3,7 +3,7 @@ def prime?(num)
   if num <= 1
     return false
   end
-  is_it_prime? = true
+  is_it_prime = true
   range = (2...num).to_a
   range.each do |x|
     if num % x == 0
