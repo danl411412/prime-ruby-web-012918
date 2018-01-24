@@ -8,7 +8,6 @@ def prime?(num)
   range.each do |x|
     if num % x == 0
       is_it_prime? = false
-      break
     end
   end
   is_it_prime?
